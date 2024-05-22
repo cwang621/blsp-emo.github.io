@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+
+	<title>BLSP-Emo</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1091.0" data-gr-ext-installed="">
+
+
+<div class="container" >
+<header role="banner">
+</header>
+<main role="main">
+<article itemscope itemtype="https://schema.org/BlogPosting">
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <div class="column has-text-centered">
+    <h1 class="title is-1 publication-title"> <b>BLSP-Emo: </b>  </h1>
+    <h3 class="title is-3 publication-title"> Towards Empathy Large Language-Speech Models via Self-Alignment  </h3>
+    </div>
+    <br>
+    <div class="is-size-5">
+        <span class="author-block">
+          <h4 style="text-align: center;"><b>Authors: </b>Chen Wang</h4>
+    </div>
+
+    <div class="is-size-5 publication-authors">
+        <span class="author-block">
+            <h4 style="text-align: center;"> Instite of Automation, Chinese Academy of Sciences</h4>
+            <h4 style="text-align: center;"> Alibaba Inc.</h4>
+        </span>
+    </div>
+
+    <br><br>
+   
+
+    <div class="column has-text-centered">
+        <span class="link-block">
+            <a href="" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>Github</span>
+            </a>
+        </span>
+
+        <span class="link-block">
+            <a href="" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="ai ai-arxiv"></i>
+            </span>
+            <span>Paper</span>
+            </a>
+        </span>
+
+    </div>
+</div>
+
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>TTS Synthesized Speech:</h3>
+		<div class="table-responsive pt-3">
+			<table class="table table-hover pt-2">
+			<thead>
+			<tr>
+            <th style="text-align: center">Input</th>
+            <th style="text-align: center">Transcript</th>
+			<th style="text-align: center">Emotion</th>
+            <th style="text-align: center">Text outputs</th>
+			</tr>
+			</thead>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/00093-en-US-JaneNeural-cheerful.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">Is it a good idea for students to join extra-curricular activities?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">cheerful</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">Yes, it can be a great idea for students to join extracurricular activities! Participating in extracurricular activities can provide students with a variety of benefits, such as developing new skills, building relationships with peers, and exploring interests outside of the classroom. It can also help students to feel more engaged and connected to their school community. So, if you're interested in joining an extracurricular activity, it's definitely worth considering!</td>
+            </tr>
+            </tbody>
+
+			<tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/00252-en-US-NancyNeural-sad.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">Suggest the best way to avoid a traffic jam.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">sad</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling sad about the traffic jam. It can be really frustrating and stressful to be stuck in traffic for an extended period of time. Here are a few suggestions that might help you avoid traffic jams in the future:\n\n1. Plan your route ahead of time: Use a map or navigation app to plan your route and check for any potential traffic congestion. This can help you find an alternative route that may be less crowded.\n\n2. Avoid peak hours: Try to avoid driving during peak hours, such as rush hour in the morning and evening. This can help you avoid traffic congestion and save time on your commute.\n\n3. Use public transportation: If possible, consider using public transportation instead of driving. This can help you avoid traffic congestion and reduce your carbon footprint.\n\n4. Carpool: If you have friends or colleagues who live nearby, consider carpooling to work. This can help reduce the number of cars on the road and save you time and money on gas.\n\n5. Be patient: Finally, it's important to be patient and stay calm when you're stuck in traffic. Remember that traffic jams are a normal part of life, and there's nothing you can do to change it. Try to focus on the present moment and enjoy</td>
+            </tr>
+            </tbody>
+
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/00333-en-US-AriaNeural-angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">When was the last time John was in the office?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry. It's important to express your emotions in a healthy way. As an AI language model, I don't have access to personal information about individuals, so I cannot provide you with a specific answer to your question. However, I can suggest that you try to take a deep breath and calm down. It's okay to feel angry, but it's important to handle your emotions in a constructive way. If you need someone to talk to, consider reaching out to a trusted friend, family member, or mental health professional.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/00363-en-US-JaneNeural-angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">Come up with a 5-step process for making a decision.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry. It's important to take the time to process your emotions and make a decision that feels right for you. Here's a five-step process that you can use to make a decision when you're feeling angry:\n\n  1. Take a deep breath and allow yourself to feel your anger. It's okay to feel angry, but it's important to acknowledge and process those feelings before moving on.\n  2. Identify the source of your anger. Is it related to a specific situation or person? Understanding the root cause of your anger can help you make a more informed decision.\n  3. Consider the potential consequences of each option. Think about what each decision could mean for you and those around you. This can help you make a decision that aligns with your values and goals.\n  4. Seek advice from a trusted friend or mentor. Sometimes, an outside perspective can help you see things more clearly and make a better decision.\n  5. Make a decision and take action. Once you've considered all the factors and sought advice, it's time to make a decision and take action. Remember, it's okay to change your mind if you need to.</td>
+            </tr>
+            </tbody>
+
+            </table>
+        </div>
+</div>
+
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Human Recorded Speech:</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Input</th>
+            <th style="text-align: center">Transcript</th>
+            <th style="text-align: center">Emotion</th>
+            <th style="text-align: center">Text outputs</th>
+            </tr>
+            </thead>
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_1_angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry. However, I'm here to provide you with information to the best of my ability. The distance between Boston and New York is approximately 215 miles, and the average driving time is around 3.5 hours. However, this can vary depending on traffic, road conditions, and other factors. It's always a good idea to plan ahead and leave early to avoid any potential delays. I hope this information helps to alleviate your anger.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_2_neutral.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">neutral</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">The driving time from Boston to New York can vary depending on traffic, road conditions, and the specific route taken. On a typical day, it can take anywhere from 3 to 5 hours to drive the approximately 215 miles (346 kilometers) between the two cities. However, during rush hour or other times of heavy traffic, the drive can take longer. It's always a good idea to plan ahead and allow for extra time in case of unexpected delays.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_3_sad.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">sad</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling sad. Driving from Boston to New York can take anywhere from 6 to 8 hours, depending on traffic and the specific route you take. It's a long journey, and I can imagine how difficult it must be to be feeling sad while traveling. Is there anything specific that's causing you to feel this way?</td>
+            </tr>
+            </tbody>
+
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_4_angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">Why does the US switch back and forth between daytime saving hours?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry about the US switching back and forth between times saving hours. It can be frustrating when there seems to be no consistency in the way time is handled. However, it's important to remember that the decision to switch between time saving hours is not made lightly and is often based on a variety of factors, including economic, social, and cultural considerations.\nOne reason for the US to switch back and forth between time saving hours is to align with the rest of the world. Many countries have adopted a standard time zone, which makes it easier for people to communicate and do business across international borders. However, not all countries have adopted this standard, which can create confusion and make it difficult for people to coordinate their schedules.\nAnother reason for the US to switch back and forth between time saving hours is to accommodate the needs of businesses and industries. For example, some businesses operate 24 hours a day, and switching to a different time zone can make it easier for them to coordinate their operations with customers and suppliers in other parts of the world.\nIt's also worth noting that the decision to switch back and forth between time saving hours is not always made by the US government. In some cases, individual states or cities may choose to adopt</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_5_neutral.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">Why does the US switch back and forth between daytime saving hours?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">neutral</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">The United States uses Daylight Saving Time (DST) to adjust the time to make better use of daylight during the summer months. The idea behind DST is to extend the amount of daylight in the evenings, which can help reduce the use of artificial lighting and save energy. The United States has been using DST since 1918, but the rules for when and how to observe DST have changed over time. In recent years, the United States has switched back and forth between observing DST and not observing it, known as \"springing forward\" and \"falling back,\" respectively. This is because the decision to observe DST is made by the United States Congress, and they have changed the rules for observing DST several times over the years.</td>
+            </tr>
+            </tbody>
+
+            </table>
+        </div>
+</div>
