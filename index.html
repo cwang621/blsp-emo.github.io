@@ -30,18 +30,19 @@
 <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
     <div class="column has-text-centered">
     <h1 class="title is-1 publication-title"> <b>BLSP-Emo: </b>  </h1>
-    <h3 class="title is-3 publication-title"> Towards Empathy Large Language-Speech Models via Self-Alignment  </h3>
+    <h3 class="title is-3 publication-title"> Towards Empathetic Large Language-Speech Models via Self-Alignment  </h3>
     </div>
     <br>
     <div class="is-size-5">
         <span class="author-block">
-          <h4 style="text-align: center;"><b>Authors: </b>Chen Wang</h4>
+          <h4 style="text-align: center;"><b>Authors: </b>Chen Wang, Minpeng Liao, Zhongqiang Huang</h4>
+          <h4 style="text-align: center;">Junhong Wu, Chengqing Zong, Jiajun Zhang</h4>
     </div>
-
+    <br>
     <div class="is-size-5 publication-authors">
         <span class="author-block">
             <h4 style="text-align: center;"> Instite of Automation, Chinese Academy of Sciences</h4>
-            <h4 style="text-align: center;"> Alibaba Inc.</h4>
+            <h4 style="text-align: center;"> Alibaba Group</h4>
         </span>
     </div>
 
@@ -70,6 +71,64 @@
         </span>
 
     </div>
+</div>
+
+
+<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
+    <h3>Human Recorded Speech:</h3>
+        <div class="table-responsive pt-3">
+            <table class="table table-hover pt-2">
+            <thead>
+            <tr>
+            <th style="text-align: center">Input</th>
+            <th style="text-align: center">Transcript</th>
+            <th style="text-align: center">Emotion</th>
+            <th style="text-align: center">Text outputs</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_1_cheerful.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">I'm graduating soon.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">cheerful</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">That's wonderful news! Congratulations on your upcoming graduation! Graduating is a significant achievement and a major milestone in your life. It's a time to celebrate your hard work, dedication, and success. You should be proud of yourself for all that you have accomplished. Take some time to reflect on your journey and all the lessons you have learned along the way. Remember to enjoy this special moment and make the most of your graduation celebrations. Best of luck in your future endeavors!</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_2_sad.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">I'm graduating soon.</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">sad</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling sad about graduating soon. It's natural to feel a mix of emotions when it comes to leaving behind the familiar routine of school and starting a new chapter in life. Graduating is a significant milestone, and it's okay to feel a sense of loss or nostalgia as you prepare to move on. However, it's also an exciting time filled with possibilities and new opportunities. Remember to take a moment to reflect on all that you've accomplished and the memories you've made, and look forward to the adventures that lie ahead.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_3_angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry. However, I'm here to provide you with information to the best of my ability. The distance between Boston and New York is approximately 215 miles, and the average driving time is around 3.5 hours. However, this can vary depending on traffic, road conditions, and other factors. It's always a good idea to plan ahead and leave early to avoid any potential delays. I hope this information helps to alleviate your anger.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_4_neutral.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">neutral</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">The driving time from Boston to New York can vary depending on traffic, road conditions, and the specific route taken. On a typical day, it can take anywhere from 3 to 5 hours to drive the approximately 215 miles (346 kilometers) between the two cities. However, during rush hour or other times of heavy traffic, the drive can take longer. It's always a good idea to plan ahead and allow for extra time in case of unexpected delays.</td>
+            </tr>
+            </tbody>
+
+            <tbody>
+            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_5_sad.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
+            <td style="text-align: center;vertical-align:middle;width: 400px">sad</td>
+            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling sad. Driving from Boston to New York can take anywhere from 6 to 8 hours, depending on traffic and the specific route you take. It's a long journey, and I can imagine how difficult it must be to be feeling sad while traveling. Is there anything specific that's causing you to feel this way?</td>
+            </tr>
+            </tbody>
+
+            </table>
+        </div>
 </div>
 
 
@@ -123,60 +182,3 @@
         </div>
 </div>
 
-
-<div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
-    <h3>Human Recorded Speech:</h3>
-        <div class="table-responsive pt-3">
-            <table class="table table-hover pt-2">
-            <thead>
-            <tr>
-            <th style="text-align: center">Input</th>
-            <th style="text-align: center">Transcript</th>
-            <th style="text-align: center">Emotion</th>
-            <th style="text-align: center">Text outputs</th>
-            </tr>
-            </thead>
-            <tbody>
-            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_1_angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
-            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry. However, I'm here to provide you with information to the best of my ability. The distance between Boston and New York is approximately 215 miles, and the average driving time is around 3.5 hours. However, this can vary depending on traffic, road conditions, and other factors. It's always a good idea to plan ahead and leave early to avoid any potential delays. I hope this information helps to alleviate your anger.</td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_2_neutral.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">neutral</td>
-            <td style="text-align: center;vertical-align:middle;width: 1200px">The driving time from Boston to New York can vary depending on traffic, road conditions, and the specific route taken. On a typical day, it can take anywhere from 3 to 5 hours to drive the approximately 215 miles (346 kilometers) between the two cities. However, during rush hour or other times of heavy traffic, the drive can take longer. It's always a good idea to plan ahead and allow for extra time in case of unexpected delays.</td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_3_sad.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">How long does it take a drive from Boston to New York?</td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">sad</td>
-            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling sad. Driving from Boston to New York can take anywhere from 6 to 8 hours, depending on traffic and the specific route you take. It's a long journey, and I can imagine how difficult it must be to be feeling sad while traveling. Is there anything specific that's causing you to feel this way?</td>
-            </tr>
-            </tbody>
-
-
-            <tbody>
-            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_4_angry.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">Why does the US switch back and forth between daytime saving hours?</td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">angry</td>
-            <td style="text-align: center;vertical-align:middle;width: 1200px">I'm sorry to hear that you're feeling angry about the US switching back and forth between times saving hours. It can be frustrating when there seems to be no consistency in the way time is handled. However, it's important to remember that the decision to switch between time saving hours is not made lightly and is often based on a variety of factors, including economic, social, and cultural considerations.\nOne reason for the US to switch back and forth between time saving hours is to align with the rest of the world. Many countries have adopted a standard time zone, which makes it easier for people to communicate and do business across international borders. However, not all countries have adopted this standard, which can create confusion and make it difficult for people to coordinate their schedules.\nAnother reason for the US to switch back and forth between time saving hours is to accommodate the needs of businesses and industries. For example, some businesses operate 24 hours a day, and switching to a different time zone can make it easier for them to coordinate their operations with customers and suppliers in other parts of the world.\nIt's also worth noting that the decision to switch back and forth between time saving hours is not always made by the US government. In some cases, individual states or cities may choose to adopt</td>
-            </tr>
-            </tbody>
-
-            <tbody>
-            <td style="text-align: center;vertical-align:middle;width: 400px"><audio controls="controls" style="width: 200px;"><source src="demos/demo_5_neutral.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">Why does the US switch back and forth between daytime saving hours?</td>
-            <td style="text-align: center;vertical-align:middle;width: 400px">neutral</td>
-            <td style="text-align: center;vertical-align:middle;width: 1200px">The United States uses Daylight Saving Time (DST) to adjust the time to make better use of daylight during the summer months. The idea behind DST is to extend the amount of daylight in the evenings, which can help reduce the use of artificial lighting and save energy. The United States has been using DST since 1918, but the rules for when and how to observe DST have changed over time. In recent years, the United States has switched back and forth between observing DST and not observing it, known as \"springing forward\" and \"falling back,\" respectively. This is because the decision to observe DST is made by the United States Congress, and they have changed the rules for observing DST several times over the years.</td>
-            </tr>
-            </tbody>
-
-            </table>
-        </div>
-</div>
